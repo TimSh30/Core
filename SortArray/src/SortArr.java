@@ -11,6 +11,11 @@ public class SortArr {
         System.out.println(Arrays.toString(arr));
     }
 
+    /**
+     *
+     * @param Quick sort
+     * @param Author A.V.Knyazev
+     */
     public static void quickSort(int[] array, int low, int high) {
         if (array.length == 0)
             return;
