@@ -7,9 +7,9 @@ public class RandomInArray {
         RandomInArray rna = new RandomInArray();
         rna.fillMass(arr);
         rna.printMass(arr);
-        System.out.println("min = " + rna.findMinInArray(arr));
-        System.out.println("min = " + rna.findMaxInArray(arr));
-        System.out.println("middleInArray = " + rna.findMaxInArray(arr) / rna.findMinInArray(arr));
+        System.out.println("min number = " + rna.findMinInArray(arr));
+        System.out.println("max  number = " + rna.findMaxInArray(arr));
+        System.out.println("middle number= " + rna.findMaxInArray(arr) / rna.findMinInArray(arr));
 
     }
 
